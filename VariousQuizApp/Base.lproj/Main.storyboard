@@ -215,10 +215,13 @@
                         <viewLayoutGuide key="safeArea" id="Yqq-li-sxk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="WAo-ka-1mZ" kind="presentation" identifier="toQuizVC" id="yUo-cN-nfD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z87-cn-VMx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="971" y="-2"/>
+            <point key="canvasLocation" x="1016" y="-2"/>
         </scene>
     </scenes>
     <resources>

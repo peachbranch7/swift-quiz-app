@@ -8,6 +8,8 @@
 import UIKit
 
 class SelectGenreViewController: UIViewController {
+    
+    var selectTag = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,8 +17,15 @@ class SelectGenreViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let quizVC = segue.destination as! QuizViewController
+        quizVC.selectGenre = selectTag
+    }
+    
     @IBAction func GenreButtonAction(sender: UIButton) {
         print(sender.tag)
+        selectTag = sender.tag
+        performSegue(withIdentifier: "toQuizVC", sender: nil)
     }
     
 
