@@ -13,6 +13,11 @@
 		E95D6C4B2611AB4A00B21934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95D6C492611AB4A00B21934 /* Main.storyboard */; };
 		E95D6C4D2611AB4D00B21934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95D6C4C2611AB4D00B21934 /* Assets.xcassets */; };
 		E95D6C502611AB4D00B21934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95D6C4E2611AB4D00B21934 /* LaunchScreen.storyboard */; };
+		E95D6C592611AD0C00B21934 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95D6C582611AD0C00B21934 /* QuizViewController.swift */; };
+		E95D6C5C2611ADCD00B21934 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95D6C5B2611ADCD00B21934 /* ScoreViewController.swift */; };
+		E95D6C5F2611BAAC00B21934 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = E95D6C5E2611BAAC00B21934 /* quiz.csv */; };
+		E95D6C642611DF4A00B21934 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = E95D6C622611DF4A00B21934 /* correct.png */; };
+		E95D6C652611DF4A00B21934 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = E95D6C632611DF4A00B21934 /* incorrect.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		E95D6C4C2611AB4D00B21934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E95D6C4F2611AB4D00B21934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95D6C512611AB4D00B21934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95D6C582611AD0C00B21934 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		E95D6C5B2611ADCD00B21934 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		E95D6C5E2611BAAC00B21934 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		E95D6C622611DF4A00B21934 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		E95D6C632611DF4A00B21934 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +70,24 @@
 				E95D6C452611AB4A00B21934 /* SceneDelegate.swift */,
 				E95D6C472611AB4A00B21934 /* ViewController.swift */,
 				E95D6C492611AB4A00B21934 /* Main.storyboard */,
+				E95D6C5E2611BAAC00B21934 /* quiz.csv */,
+				E95D6C5B2611ADCD00B21934 /* ScoreViewController.swift */,
+				E95D6C582611AD0C00B21934 /* QuizViewController.swift */,
+				E95D6C612611DF4A00B21934 /* image */,
 				E95D6C4C2611AB4D00B21934 /* Assets.xcassets */,
 				E95D6C4E2611AB4D00B21934 /* LaunchScreen.storyboard */,
 				E95D6C512611AB4D00B21934 /* Info.plist */,
 			);
 			path = VariousQuizApp;
+			sourceTree = "<group>";
+		};
+		E95D6C612611DF4A00B21934 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				E95D6C622611DF4A00B21934 /* correct.png */,
+				E95D6C632611DF4A00B21934 /* incorrect.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +147,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95D6C642611DF4A00B21934 /* correct.png in Resources */,
+				E95D6C652611DF4A00B21934 /* incorrect.png in Resources */,
 				E95D6C502611AB4D00B21934 /* LaunchScreen.storyboard in Resources */,
 				E95D6C4D2611AB4D00B21934 /* Assets.xcassets in Resources */,
 				E95D6C4B2611AB4A00B21934 /* Main.storyboard in Resources */,
+				E95D6C5F2611BAAC00B21934 /* quiz.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +165,9 @@
 			files = (
 				E95D6C482611AB4A00B21934 /* ViewController.swift in Sources */,
 				E95D6C442611AB4A00B21934 /* AppDelegate.swift in Sources */,
+				E95D6C5C2611ADCD00B21934 /* ScoreViewController.swift in Sources */,
 				E95D6C462611AB4A00B21934 /* SceneDelegate.swift in Sources */,
+				E95D6C592611AD0C00B21934 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
