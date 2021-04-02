@@ -27,7 +27,8 @@ class QuizViewController: UIViewController {
         
         print("選択したのはジャンル\(selectGenre)")
         
-        csvArray = loadCSV(fileNmae: "quiz")
+        csvArray = loadCSV(fileNmae: "quiz\(selectGenre)")
+        csvArray.shuffle()
         print(csvArray)
         
         quizArray = csvArray[quizCount].components(separatedBy: ",")
