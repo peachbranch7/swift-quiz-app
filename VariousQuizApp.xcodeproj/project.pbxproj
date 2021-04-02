@@ -18,6 +18,7 @@
 		E95D6C5F2611BAAC00B21934 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = E95D6C5E2611BAAC00B21934 /* quiz.csv */; };
 		E95D6C642611DF4A00B21934 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = E95D6C622611DF4A00B21934 /* correct.png */; };
 		E95D6C652611DF4A00B21934 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = E95D6C632611DF4A00B21934 /* incorrect.png */; };
+		E95D6C682616E6EC00B21934 /* SelectGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95D6C672616E6EC00B21934 /* SelectGenreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E95D6C5E2611BAAC00B21934 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
 		E95D6C622611DF4A00B21934 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		E95D6C632611DF4A00B21934 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		E95D6C672616E6EC00B21934 /* SelectGenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGenreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				E95D6C452611AB4A00B21934 /* SceneDelegate.swift */,
 				E95D6C472611AB4A00B21934 /* ViewController.swift */,
 				E95D6C492611AB4A00B21934 /* Main.storyboard */,
+				E95D6C672616E6EC00B21934 /* SelectGenreViewController.swift */,
 				E95D6C5E2611BAAC00B21934 /* quiz.csv */,
 				E95D6C5B2611ADCD00B21934 /* ScoreViewController.swift */,
 				E95D6C582611AD0C00B21934 /* QuizViewController.swift */,
@@ -165,6 +168,7 @@
 			files = (
 				E95D6C482611AB4A00B21934 /* ViewController.swift in Sources */,
 				E95D6C442611AB4A00B21934 /* AppDelegate.swift in Sources */,
+				E95D6C682616E6EC00B21934 /* SelectGenreViewController.swift in Sources */,
 				E95D6C5C2611ADCD00B21934 /* ScoreViewController.swift in Sources */,
 				E95D6C462611AB4A00B21934 /* SceneDelegate.swift in Sources */,
 				E95D6C592611AD0C00B21934 /* QuizViewController.swift in Sources */,
